@@ -52,12 +52,6 @@ It would be beneficial to understand the number of Sigma rules that can be imple
 
 The output CSV file will contain the mapped event IDs, their corresponding channels or providers, and the rule type (category or service) for all the Sigma rules in the `sigma/rules/windows` directory.
 
-This visualized report is assembled with the assistance of the CSV file as input.
-
-![WinSigmaRuleAnalyzer Thumbnail](additional%20files%2FWinSigmaRuleAnalyzer-Thumbnail.jpg)
-
-[[Download the PDF - HQ]](additional%20files%2FWinSigmaRuleAnalyzer.pdf)
-
 ## Notes
 
 - The script may output warnings for certain rule files with missing service or category information or unexpected level values.
@@ -67,3 +61,11 @@ This visualized report is assembled with the assistance of the CSV file as input
 **MIT License**
 
 Licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Visualized Report
+
+This visualized report is assembled with the assistance of the CSV file as input.
+
+![WinSigmaRuleAnalyzer Thumbnail](additional%20files%2FWinSigmaRuleAnalyzer-Thumbnail.jpg)
+
+[[Download the PDF - HQ]](additional%20files%2FWinSigmaRuleAnalyzer.pdf)
