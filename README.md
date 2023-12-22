@@ -2,6 +2,10 @@
 
 This repository provides a simple script to parse [#Sigma](https://github.com/SigmaHQ/sigma) rules and map the event IDs to their corresponding channels or providers. The script downloads Sigma rules from sigma rule repository and produces a CSV file with the mapped event IDs, their corresponding channels or providers, and the rule type (category or service).
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./additional-files/WinSigmaRuleAnalyzer-Thumbnail.jpg">
+  <img alt="WinSigmaRuleAnalyzer" src="./additional-files/WinSigmaRuleAnalyzer-Thumbnail.jpg">
+</picture>
 
 ## Overview
 
@@ -66,6 +70,6 @@ Licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 This visualized report is assembled with the assistance of the CSV file as input.
 
-![WinSigmaRuleAnalyzer Thumbnail](additional%20files%2FWinSigmaRuleAnalyzer-Thumbnail.jpg)
+![WinSigmaRuleAnalyzer Thumbnail](additional-files%2FWinSigmaRuleAnalyzer-Thumbnail.jpg)
 
-[[Download the PDF - HQ]](additional%20files%2FWinSigmaRuleAnalyzer.pdf)
+[[Download the PDF - HQ]](additional-files%2FWinSigmaRuleAnalyzer.pdf)
