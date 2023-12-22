@@ -1,4 +1,4 @@
-# Sigma Windows Rule Insighter
+# Sigma Windows Rule Analyzer
 
 This repository provides a simple script to parse [#Sigma](https://github.com/SigmaHQ/sigma) rules and map the event IDs to their corresponding channels or providers. The script downloads Sigma rules from sigma rule repository and produces a CSV file with the mapped event IDs, their corresponding channels or providers, and the rule type (category or service).
 
@@ -20,10 +20,10 @@ The script performs the following tasks:
 
 ## Usage
 
-The script requires only Python and Git to be installed. Just clone the [SigmaWinRuleInsighter](https://github.com/rowham/SigmaWinRuleInsighter.git) repository and run the main.py file.
+The script requires only Python and Git to be installed. Just clone the [WinSigmaRuleAnalyzer](https://github.com/rowham/WinSigmaRuleAnalyzer.git) repository and run the main.py file.
 
 ```
-git clone https://github.com/rowham/SigmaWinRuleInsighter.git
+git clone https://github.com/rowham/WinSigmaRuleAnalyzer.git
 python3 main.py
 ```
 
